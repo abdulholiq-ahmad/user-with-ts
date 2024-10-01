@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { FC, useEffect, useState } from "react";
-import { useNavigate, useParams, NavigateFunction } from "react-router-dom";
+import { FC, useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 
 interface Product {
   id: number;
